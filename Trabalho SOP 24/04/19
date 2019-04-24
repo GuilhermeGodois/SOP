@@ -1,0 +1,40 @@
+1)echo "guilherme"
+
+2)echo "guilherme" > cliente1.txt
+  less cliente1.txt
+
+3)echo "guilherme" >> cliente1.txt
+  less cliente1.txt
+
+4)mkdir clientes
+  cd clientes 
+  less clientes
+
+5)mv cliente01.txt clientes
+
+6)cp cliente01.txt cliente01.txt.bkp
+
+7)rm cliente01.txt
+
+8)vi cliente.script
+
+9)chmod x cliente.script
+
+10)primeiro comando: exibe o calendário 
+   segundo comando: adicionou o dia de hoje no calendário ao texto hoje.txt
+
+11)wget https://gist.githubusercontent.com/leandersonandre/c8cba982f42262591be628e5397d1c3f/raw/bd13a3e13823708e477f99f9285f845b292714c6/cidades_sc.txt
+
+12)Exibe ocorrências existentes no texto com Balneario
+
+13)nenhuma ocorrência encontrada
+
+14)exibe ocorrências existentes no texto que possuem o termo "do Sul"
+
+15)cat cidades_sc.txt | grep Balneario
+
+16)cat cidades_sc.txt | grep Balneario > balneario.txt
+
+17)tar -cvf compactado.tar balneario.txt
+
+18)tar -xvf compactado.tar
