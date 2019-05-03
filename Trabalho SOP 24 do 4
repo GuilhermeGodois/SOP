@@ -40,11 +40,13 @@
 18)tar -xvf compactado.tar
 
 1)
+#!/bin/bash
 echo "informe seu nome:"
 read Nome
 echo -e "Seu nome e: $nome"
 
 2)
+#!/bin/bash
 echo “Digite o primeiro valor:”
 read v1
 echo “Digite o segundo valor:”
