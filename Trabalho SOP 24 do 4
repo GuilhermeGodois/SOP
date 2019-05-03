@@ -57,12 +57,12 @@ echo "digite um valor"
 read v1
 if [ $v1 -lt 0 ]
 then
-echo "valor negativo"
+  echo "valor negativo"
 elif [ $1 -eq 0 ]
 then
-echo "nulo"
+  echo "nulo"
 else
-echo "valor positivo"
+  echo "valor positivo"
 fi
 
 4)
